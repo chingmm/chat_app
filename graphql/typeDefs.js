@@ -5,9 +5,12 @@ module.exports = gql`
 type User {
     username: String! #exclamation point makes this a required field
     email: String!
+    createdAt: String!
+    token: String
 }
 type Query {
-getUsers: [User]!
+    getUsers: [User]!
+    login(username: String!, password: String!): User!
 }
 type Mutation{
     register(
