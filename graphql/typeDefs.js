@@ -4,9 +4,11 @@ const { gql } = require('apollo-server')
 module.exports = gql`
 type User {
     username: String! #exclamation point makes this a required field
-    email: String!
+    email: String
     createdAt: String!
     token: String
+    imageUrl: String!
+    latestMessage: Message
 }
 type Message {
     uuid: String!
