@@ -1,11 +1,12 @@
 {
-  "name": "chat_app",
+  "name": "classed_youtube_nodejs_react_graphql",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
     "@apollo/client": "^3.3.6",
     "apollo-server": "^2.19.0",
     "bcryptjs": "^2.4.3",
+    "dotenv": "^8.2.0",
     "graphql": "^15.4.0",
     "jsonwebtoken": "^8.5.1",
     "pg": "^8.5.1",
