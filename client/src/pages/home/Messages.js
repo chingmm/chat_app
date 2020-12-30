@@ -116,7 +116,7 @@ export default function Messages() {
               onChange={(e) => setContent(e.target.value)}
             />
             <i
-              className="fas fa-paper-plane fa-2x text-primary ml-2"
+              className="fas fa-location-arrow fa-2x text-primary ml-2"
               onClick={submitMessage}
               role="button"
             ></i>
