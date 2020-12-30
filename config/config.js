@@ -7,5 +7,5 @@ module.exports = {
   host: process.env.DB_HOST,
   dialect: process.env.DB_DIALECT,
   ssl: process.env.SSL,
-  use_env_variable: 'DATABASE_URL'
+  use_env_variable: 'DB_URI'
 }
