@@ -1,5 +1,5 @@
 {
-  "name": "classed_youtube_nodejs_react_graphql",
+  "name": "chat_app",
   "version": "1.0.0",
   "main": "server.js",
   "dependencies": {
