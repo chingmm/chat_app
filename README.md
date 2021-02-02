@@ -20,11 +20,6 @@ Sequelize is the ORM being used to interact with Nodejs in order to connect to t
 - Bootstrap
 
 
-# Setup
-- Backend created with rails new and rails scaffold
-- One database table containing all data
-- Frontend built with React and styled with Bootstrap and CSS
-
 # Problems
 - Users keep shifting with message
 - Pictures look weird
